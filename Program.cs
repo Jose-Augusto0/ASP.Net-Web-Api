@@ -20,15 +20,26 @@ builder.Services.AddDbContext<SistemaTarefasDBContext>(options =>
 
 builder.Services.AddScoped<IUsuarioRepositorio, UsuarioRepositorio>();
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("PermitirOrigemAngular",
+        policy => policy.WithOrigins("http://localhost:4200")
+                         .AllowAnyMethod()
+                         .AllowAnyHeader());
+});
+
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+app.UseCors("PermitirOrigemAngular");
+
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
 
 app.UseHttpsRedirection();
 

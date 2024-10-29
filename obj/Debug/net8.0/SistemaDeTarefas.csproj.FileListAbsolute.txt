@@ -126,3 +126,4 @@ C:\Users\josea\Desktop\estudos\SistemaDeTarefas\SistemaDeTarefas\bin\Debug\net8.
 C:\Users\josea\Desktop\estudos\SistemaDeTarefas\SistemaDeTarefas\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
 C:\Users\josea\Desktop\estudos\SistemaDeTarefas\SistemaDeTarefas\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
 C:\Users\josea\Desktop\estudos\SistemaDeTarefas\SistemaDeTarefas\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Windows.Extensions.dll
+C:\Users\josea\Desktop\estudos\SistemaDeTarefas\SistemaDeTarefas\obj\Debug\net8.0\SistemaDeTarefas.sourcelink.json
